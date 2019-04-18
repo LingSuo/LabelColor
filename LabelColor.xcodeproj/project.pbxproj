@@ -15,6 +15,10 @@
 		114CC96320EB52BF003D8C48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 114CC96220EB52BF003D8C48 /* main.m */; };
 		114CC96D20EB52BF003D8C48 /* LabelColorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 114CC96C20EB52BF003D8C48 /* LabelColorTests.m */; };
 		114CC97820EB52BF003D8C48 /* LabelColorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 114CC97720EB52BF003D8C48 /* LabelColorUITests.m */; };
+		114CC98720EB5309003D8C48 /* ColorLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 114CC98620EB5309003D8C48 /* ColorLabel.m */; };
+		11B0EF3E2243577300252CD3 /* mainTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B0EF3D2243577300252CD3 /* mainTabViewController.m */; };
+		11B0EF41224357EC00252CD3 /* Ctb.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B0EF40224357EC00252CD3 /* Ctb.m */; };
+		11B0EF44224357FC00252CD3 /* CustomTab.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B0EF43224357FC00252CD3 /* CustomTab.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		114CC97320EB52BF003D8C48 /* LabelColorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LabelColorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		114CC97720EB52BF003D8C48 /* LabelColorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LabelColorUITests.m; sourceTree = "<group>"; };
 		114CC97920EB52BF003D8C48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		114CC98520EB5309003D8C48 /* ColorLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorLabel.h; sourceTree = "<group>"; };
+		114CC98620EB5309003D8C48 /* ColorLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorLabel.m; sourceTree = "<group>"; };
+		11B0EF3C2243577300252CD3 /* mainTabViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mainTabViewController.h; sourceTree = "<group>"; };
+		11B0EF3D2243577300252CD3 /* mainTabViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mainTabViewController.m; sourceTree = "<group>"; };
+		11B0EF3F224357EC00252CD3 /* Ctb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ctb.h; sourceTree = "<group>"; };
+		11B0EF40224357EC00252CD3 /* Ctb.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ctb.m; sourceTree = "<group>"; };
+		11B0EF42224357FC00252CD3 /* CustomTab.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTab.h; sourceTree = "<group>"; };
+		11B0EF43224357FC00252CD3 /* CustomTab.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTab.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +93,8 @@
 		114CC94720EB52BF003D8C48 = {
 			isa = PBXGroup;
 			children = (
+				114CC98520EB5309003D8C48 /* ColorLabel.h */,
+				114CC98620EB5309003D8C48 /* ColorLabel.m */,
 				114CC95220EB52BF003D8C48 /* LabelColor */,
 				114CC96B20EB52BF003D8C48 /* LabelColorTests */,
 				114CC97620EB52BF003D8C48 /* LabelColorUITests */,
@@ -110,6 +124,12 @@
 				114CC95E20EB52BF003D8C48 /* LaunchScreen.storyboard */,
 				114CC96120EB52BF003D8C48 /* Info.plist */,
 				114CC96220EB52BF003D8C48 /* main.m */,
+				11B0EF3C2243577300252CD3 /* mainTabViewController.h */,
+				11B0EF3D2243577300252CD3 /* mainTabViewController.m */,
+				11B0EF3F224357EC00252CD3 /* Ctb.h */,
+				11B0EF40224357EC00252CD3 /* Ctb.m */,
+				11B0EF42224357FC00252CD3 /* CustomTab.h */,
+				11B0EF43224357FC00252CD3 /* CustomTab.m */,
 			);
 			path = LabelColor;
 			sourceTree = "<group>";
@@ -264,6 +284,10 @@
 			files = (
 				114CC95820EB52BF003D8C48 /* ViewController.m in Sources */,
 				114CC96320EB52BF003D8C48 /* main.m in Sources */,
+				114CC98720EB5309003D8C48 /* ColorLabel.m in Sources */,
+				11B0EF44224357FC00252CD3 /* CustomTab.m in Sources */,
+				11B0EF41224357EC00252CD3 /* Ctb.m in Sources */,
+				11B0EF3E2243577300252CD3 /* mainTabViewController.m in Sources */,
 				114CC95520EB52BF003D8C48 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,7 +458,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53MNF47392;
 				INFOPLIST_FILE = LabelColor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,7 +476,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53MNF47392;
 				INFOPLIST_FILE = LabelColor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
